@@ -1,0 +1,38 @@
+.hero {
+  background-image: url(/images/cover.jpeg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: center;
+  align-items: center;
+  color: $lightTextColor;
+  padding-right: 42px;
+  padding-left: 34px;
+  background-position: top right -100px;
+
+  &__title {
+    font-size: 30px;
+    line-height: 1.67;
+    font-family: $titleFontFamily;
+    font-weight: bold;
+  }
+
+  &__intro {
+    font-size: 16px;
+    line-height: 19px;
+    font-family: $mainFontFamily;
+  }
+
+  &__button {
+    background-color: $whiteColor;
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+    justify-content: center;
+    display: flex;
+    margin: 15px 0 58px;
+  }
+}
