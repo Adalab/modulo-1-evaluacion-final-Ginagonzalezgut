@@ -18,6 +18,11 @@
     padding: 56px 0 34px;
   }
 
+  @media (min-width: 1200px) {
+    justify-content: space-between;
+    padding: 59px 246px 31px 202px;
+  }
+
   &__button {
     width: 45px;
     height: 45px;
@@ -26,6 +31,8 @@
     padding: 11px 12.4px 10px 12px;
     position: absolute;
     top: -18px;
+    left: 50%;
+    margin-left: -22px;
   }
 
   &__list {

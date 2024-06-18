@@ -4,6 +4,9 @@
   @media (min-width: $tabletsize) {
     padding: 37px 39px 61px 37px;
   }
+  @media (min-width: 1200px) {
+    padding: 39px 170px 49px 170px;
+  }
 
   &__subtitle {
     color: $primaryColor;
@@ -36,6 +39,9 @@
       font-size: 20px;
       line-height: 1.5;
       margin-bottom: 21px;
+    }
+    @media (min-width: 1200px) {
+      margin-bottom: 51px;
     }
   }
   &__button {

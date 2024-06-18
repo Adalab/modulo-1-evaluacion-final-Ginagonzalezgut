@@ -6,6 +6,9 @@
   @media (min-width: $tabletsize) {
     padding: 27px 38px 50px 38px;
   }
+  @media (min-width: 1200px) {
+    padding: 27px 170px 50px 170px;
+  }
   &__subtitle {
     color: #626262;
     font-size: 12px;
