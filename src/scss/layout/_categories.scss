@@ -1,0 +1,48 @@
+.categories {
+  background-color: $categoryBackground;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 18px 11px 30.7px 12px;
+
+  &__subtitle {
+    color: #626262;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 2.5;
+  }
+  &__title {
+    color: $titleColor;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 11.4px;
+  }
+  &__grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2.14;
+  }
+  &__image {
+    border-radius: 50%;
+    height: 124px;
+    width: 114px;
+    object-fit: cover;
+  }
+
+  &__button {
+    width: 184px;
+    height: 47.3px;
+    background-color: $primaryColor;
+    color: $lightTextColor;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2.25;
+  }
+}

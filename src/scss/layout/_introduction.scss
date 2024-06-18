@@ -2,19 +2,16 @@
   padding: 34px 17px 28px 13px;
 
   &__subtitle {
-    font-family: $mainFontFamily;
     color: $primaryColor;
     font-size: 14px;
     line-height: 2.14;
   }
   &__title {
-    font-family: $titleFontFamily;
     font-size: 22px;
     font-weight: bold;
     line-height: 1.36;
   }
   &__paragraph {
-    font-family: $mainFontFamily;
     font-size: 18px;
     line-height: 1.67;
     color: $textColor;

@@ -6,3 +6,13 @@
 @import "layout/introduction";
 @import "layout/categories";
 @import "layout/footer";
+
+body {
+  font-family: $mainFontFamily;
+}
+
+h1,
+h2,
+h3 {
+  font-family: $titleFontFamily;
+}
