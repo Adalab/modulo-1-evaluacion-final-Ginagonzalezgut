@@ -1,15 +1,29 @@
 .introduction {
   padding: 34px 17px 28px 13px;
 
+  @media (min-width: $tabletsize) {
+    padding: 37px 39px 61px 37px;
+  }
+
   &__subtitle {
     color: $primaryColor;
     font-size: 14px;
     line-height: 2.14;
+
+    @media (min-width: $tabletsize) {
+      font-size: 16px;
+      line-height: 1.88;
+    }
   }
   &__title {
     font-size: 22px;
     font-weight: bold;
     line-height: 1.36;
+
+    @media (min-width: $tabletsize) {
+      font-size: 32px;
+      line-height: 1.41;
+    }
   }
   &__paragraph {
     font-size: 18px;
@@ -17,6 +31,12 @@
     color: $textColor;
     margin-top: 10px;
     margin-bottom: 42px;
+
+    @media (min-width: $tabletsize) {
+      font-size: 20px;
+      line-height: 1.5;
+      margin-bottom: 21px;
+    }
   }
   &__button {
     background-color: $whiteColor;
