@@ -9,19 +9,33 @@
   text-align: center;
   align-items: center;
   color: $lightTextColor;
-  padding-right: 42px;
-  padding-left: 34px;
-  background-position: top right -100px;
+  padding: 0 42px 58px 34px;
+  background-position: top right;
+
+  @media (min-width: $tabletsize) {
+    background-position: center;
+    padding-bottom: 25px;
+  }
 
   &__title {
     font-size: 30px;
     line-height: 1.67;
     font-weight: bold;
+
+    @media (min-width: $tabletsize) {
+      font-size: 75px;
+      line-height: 1.33;
+    }
   }
 
   &__intro {
     font-size: 16px;
     line-height: 19px;
+
+    @media (min-width: $tabletsize) {
+      font-size: 24px;
+      line-height: 1.17;
+    }
   }
 
   &__button {
@@ -31,6 +45,11 @@
     border-radius: 100%;
     justify-content: center;
     display: flex;
-    margin: 15px 0 58px;
+    margin: 15px 0 0;
+
+    @media (min-width: $tabletsize) {
+      width: 45px;
+      height: 45px;
+    }
   }
 }
