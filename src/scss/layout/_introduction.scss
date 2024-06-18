@@ -1,0 +1,40 @@
+.introduction {
+  padding: 34px 17px 28px 13px;
+
+  &__subtitle {
+    font-family: $mainFontFamily;
+    color: $primaryColor;
+    font-size: 14px;
+    line-height: 2.14;
+  }
+  &__title {
+    font-family: $titleFontFamily;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.36;
+  }
+  &__paragraph {
+    font-family: $mainFontFamily;
+    font-size: 18px;
+    line-height: 1.67;
+    color: $textColor;
+    margin-top: 10px;
+    margin-bottom: 42px;
+  }
+  &__button {
+    background-color: $whiteColor;
+    color: $primaryColor;
+    width: 160px;
+    height: 45px;
+    border-color: $primaryColor;
+    border: 1px solid;
+    border-width: medium;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
