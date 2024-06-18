@@ -9,6 +9,15 @@
   padding: 60px 0 33px;
   gap: 28px;
 
+  @media (min-width: $tabletsize) {
+    align-items: start;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 0;
+    text-align: start;
+    padding: 56px 0 34px;
+  }
+
   &__button {
     width: 45px;
     height: 45px;
@@ -22,6 +31,10 @@
   &__list {
     font-size: 16px;
     line-height: 1.88;
+
+    @media (min-width: $tabletsize) {
+      order: 2;
+    }
   }
 
   &__icon {
@@ -30,5 +43,8 @@
   &__copyright {
     line-height: 2.14;
     font-size: 14px;
+    @media (min-width: $tabletsize) {
+      order: 1;
+    }
   }
 }
